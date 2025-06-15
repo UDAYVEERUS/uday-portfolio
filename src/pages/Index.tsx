@@ -51,7 +51,8 @@ const Index = () => {
       demo: "https://astrotellers.com",
       github: "#",
       featured: true,
-      color: "from-blue-500 to-cyan-500"
+      color: "from-blue-500 to-cyan-500",
+      image: "/projects/astrotellers.png"
     },
     {
       title: "Polar Bear Meds | Pharmacy Website",
@@ -60,7 +61,8 @@ const Index = () => {
       demo: "https://polarbearmeds.vercel.app",
       github: "#",
       featured: true,
-      color: "from-purple-500 to-pink-500"
+      color: "from-purple-500 to-pink-500",
+      image: "/projects/polarbear.png"
     },
     {
       title: "SEOAUTOAI ",
@@ -69,14 +71,15 @@ const Index = () => {
       demo: "https://seoautoai.com/",
       github: "#",
       featured: true,
-      color: "from-emerald-500 to-teal-500"
+      color: "from-emerald-500 to-teal-500",
+      image: "/projects/seoauto.png"
     }
   ];
   const wordpressprojects = [
     {
       title: "Vulcan Vents",
       description: `Redesigned and launched the official Vulcan Vents WordPress site showcasing fire‑resistant vent products with clear compliance messaging (Chapter 7A, ASTM standards) and a streamlined retailer locator. The project delivers responsive layouts, optimized load times, and intuitive navigation, enhancing brand trust and user engagement.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://www.vulcanvents.com",
       github: "#",
       featured: true,
@@ -86,83 +89,83 @@ const Index = () => {
     {
       title: "Firefree Coatings",
       description: `Built the WordPress website for Firefree Coatings, showcasing their advanced intumescent, fire-resistant paints and coatings. The site highlights product specifications, certifications (FM 4470, ASTM), global applications, resources, and client testimonials. Features include intuitive navigation, responsive design, and clear lead‑generation forms.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://www.firefree.com",
       github: "#",
       featured: true,
       color: "from-orange-600 to-red-600",
-      image: "/projects/vulcan.png"
+      image: "/projects/firefree.png"
     },
     {
       title: "HomePro Mobility",
       description: `Developed the WordPress website for HomePro Mobility—an accessibility solutions provider in Loganville, GA. The site features responsive service pages (stairlifts, ramps, walk-in tubs, shower modifications), online consultation forms, photo gallery, locations served, and client testimonials—with intuitive navigation and improved lead generation.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://www.homepromobility.com",
       github: "#",
       featured: true,
       color: "from-blue-500 to-teal-500",
-      image: "/projects/vulcan.png"
+      image: "/projects/homepro.png"
     },
     {
       title: "Rankingeek",
       description: `Rankingeek is a full-service digital marketing agency based in Delhi, offering SEO, PPC, web development, graphic design, and content marketing. I developed and integrated the client-facing WordPress site to showcase their services and case studies, ensuring responsive design, fast load times, and seamless navigation.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://www.rankingeek.com",
       github: "#",
       featured: true,
       color: "from-green-500 to-blue-500",
-      image: "/projects/vulcan.png",
+      image: "/projects/rankingeek.png",
     },
     {
       title: "Bridgwater Physiotherapy",
       description: `Built the WordPress website for Bridgwater Physiotherapy in Winnipeg, showcasing services like physiotherapy, massage, acupuncture, and athletic therapy. The site features responsive design, intuitive service navigation, online appointment booking, and clear contact information—enhancing clinic accessibility and patient engagement.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://bridgwaterphysiotherapy.ca",
       github: "#",
       featured: true,
       color: "from-teal-500 to-green-500",
-      image: "/projects/vulcan.png",
+      image: "/projects/bridgwater.png",
     }
     ,
     {
       title: "HOM Automation",
       description: `Developed and launched the WordPress site for HOM Automation Pvt. Ltd., a leader in entrance security systems. The site features product showcase, PAN‑India project highlights, blog section, and seamless contact/quotation forms. Designed to be responsive and user-friendly, enhancing industrial brand presence and lead generation.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://www.homautomation.com",
       github: "#",
       featured: true,
       color: "from-blue-600 to-teal-600",
-      image: "/projects/vulcan.png",
+      image: "/projects/homautomation.png",
     },
     {
       title: "32 Strong Dental",
       description: `Developed the WordPress site for 32 Strong Dental, a leading clinic in South Delhi led by Dr. Pooja Jain. The site showcases comprehensive services—implants, cosmetic therapy, pain relief, dental tourism—with online appointment booking, clinic details, and patient testimonials. It’s responsive, user‑centric, and informative.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://www.32strongdental.com",
       github: "#",
       featured: true,
       color: "from-red-500 to-pink-500",
-      image: "/projects/vulcan.png",
+      image: "/projects/32strong.png",
     },
     {
       title: "Siam Balance Float & Wellness",
       description: `Developed the WordPress website for Siam Balance Float & Wellness in Kiama, Australia. The site highlights a range of spa services—float therapy, infrared sauna, cold plunge, massage, steam room—with clear service navigation, online booking, pricing info, and client testimonials, all wrapped in a clean, responsive design.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://siambalancefloatandwellness.com.au",
       github: "#",
       featured: true,
       color: "from-purple-500 to-indigo-500",
-      image: "/projects/vulcan.png",
+      image: "/projects/siambalance.png",
     },
     {
       title: "Mata Nand Kaur Public School",
       description: `Developed the WordPress website for Mata Nand Kaur Public School in Najafgarh, Delhi. The site features responsive layouts, admissions info, academic highlights, facilities overview, non‑academic programs, and a news blog. It enhances school‑parent engagement and conveys a professional, trustworthy educational identity.`,
-      tech: ["WordPress"],
+      tech: ["WordPress","HTML", "CSS" , "Javascript", "MYSQL", "PHP", "Elementor"],
       demo: "https://matanandkaur.com",
       github: "#",
       featured: true,
       color: "from-blue-400 to-green-400",
-      image: "/projects/vulcan.png",
+      image: "/projects/mnk.png",
     }
 
   ];
@@ -175,7 +178,7 @@ const Index = () => {
       github: "#",
       featured: true,
       color: "from-copper-500 to-teal-400",
-      image: "/images/coppercanoewoman.png"
+      image: "/projects/copper.png"
     },
     {
       title: "Arts Shala",
@@ -185,7 +188,7 @@ const Index = () => {
       github: "#",
       featured: true,
       color: "from-purple-500 to-indigo-500",
-      image: "/images/artsshala-store.png"
+      image: "/projects/artsshala.png"
     },
     {
       title: "Naomi Bourque Jewelry",
@@ -195,7 +198,7 @@ const Index = () => {
       github: "#",
       featured: true,
       color: "from-blue-500 to-indigo-500",
-      image: "/images/custom-shopify-store.png"
+      image: "/projects/naomi.png"
     }
 
   ]
@@ -263,7 +266,7 @@ const Index = () => {
               ))}
             </div>
             <a href="tel:+91-6392031395" className="bg-gradient-to-r py-2 from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 rounded-full px-6 shadow-lg hover:shadow-xl transition-all duration-300">
-              Book a call
+              Call Now
             </a>
           </div>
         </div>
@@ -473,6 +476,11 @@ const Index = () => {
                 className="bg-white/90 backdrop-blur-sm border border-gray-200 hover:border-gray-300 transition-all duration-300 hover:shadow-2xl hover:scale-105 group overflow-hidden"
               >
                 <div className={`h-2 bg-gradient-to-r ${project.color}`}></div>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover"
+                />
                 <CardHeader>
                   <CardTitle className="text-xl text-gray-900 group-hover:bg-gradient-to-r group-hover:from-pink-600 group-hover:to-purple-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
                     {project.title}
@@ -589,6 +597,11 @@ const Index = () => {
                 className="bg-white/90 backdrop-blur-sm border border-gray-200 hover:border-gray-300 transition-all duration-300 hover:shadow-2xl hover:scale-105 group overflow-hidden"
               >
                 <div className={`h-2 bg-gradient-to-r ${project.color}`}></div>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover"
+                />
                 <CardHeader>
                   <CardTitle className="text-xl text-gray-900 group-hover:bg-gradient-to-r group-hover:from-pink-600 group-hover:to-purple-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
                     {project.title}
