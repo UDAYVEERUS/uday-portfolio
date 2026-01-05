@@ -28,8 +28,8 @@ const Index = () => {
   const handleResumeDownload = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/Uday-Resume.pdf';
-    link.download = '/Uday-Resume.pdf';
+    link.href = 'Uday-Resume.pdf';
+    link.download = 'Uday-Resume.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
@@ -37,9 +37,9 @@ const Index = () => {
   };
 
   const skills = {
-    frontend: ["HTML5", "CSS3", "JavaScript", "React.js", "Next.js", "Tailwind CSS"],
-    backend: ["Node.js", "Express.js", "REST APIs", "GraphQL"],
-    database: ["MongoDB", "MySQL", "PostgreSQL", "Redis"],
+    frontend: ["HTML5", "CSS3", "JavaScript", "React.js", "Next.js", "Tailwind CSS", "TypeScript", "Redux", "Framer Motion", "ShadCn UI", "WordPress", "Shopify" , "Webflow"],
+    backend: ["Node.js", "Express.js","Middleware", "Authentication (JWT)", "REST APIs", "GraphQL"],
+    database: ["MongoDB", "MySQL", "PostgreSQL", "Firebase", "Mongoose", "Prisma"],
     cloud: ["AWS EC2", "AWS Lambda", "AWS RDS", "AWS S3", "Docker", "Kubernetes", "Git", "Vercel", "Postman"]
   };
 
@@ -67,12 +67,42 @@ const Index = () => {
     {
       title: "SEOAUTOAI ",
       description: "SEOAUTOAI is an AI-powered SEO automation platform that streamlines search engine optimization through automated audits, keyword insights, and content optimization. Designed to make SEO effortless, the platform employs cutting-edge AI to perform comprehensive site audits and create SEO-rich content with minimal manual input. By analyzing keyword trends and competitive data, it generates on-page recommendations, meta tags, and optimized content in over 50 languages, helping businesses improve their rankings quickly and consistently. The intuitive interface and actionable insights enable users to enhance visibility, save time, and scale organic traffic with precision and ease. ",
-      tech: ["Next.js", "Typescript", "Tailwindcss", "Framer Motion", "ShadCn", "Node.js", "Expressjs", "Python", "MySql", "Vercel", "Razorpay"],
+      tech: ["Next.js", "Typescript", "Tailwindcss", "Framer Motion", "ShadCn", "Node.js", "Expressjs", "Python", "MySql", "Vercel"],
       demo: "https://seoautoai.com/",
       github: "#",
       featured: true,
       color: "from-emerald-500 to-teal-500",
       image: "/projects/seoauto.png"
+    },
+    {
+      title: "Plagarism Checker & AI Detector",
+      description: "AI Plagiarism Checker is a full-stack web application built with Next.js 14 (App Router), TypeScript, and MongoDB, designed to detect plagiarism in text and document uploads. The platform performs sentence-level analysis, compares content against online sources using multiple similarity algorithms, and generates detailed visual and PDF reports. It features JWT-based authentication, a secure user dashboard to track scan history and usage, and performance-optimized APIs with rate limiting. The project emphasizes scalability, accuracy, and a polished, SEO-friendly user experience.",
+      tech: ["Next.js", "Typescript", "Tailwindcss", "Framer Motion", "Node.js","Javascript", "Expressjs", "MongoDB", "Mongoose", "Vercel" , "Sepling API" , "SerpApi"],
+      demo: "https://ai-detector-plagariasm-checker.vercel.app/",
+      github: "#",
+      featured: true,
+      color: "from-emerald-500 to-teal-500",
+      image: "/projects/plagarism.png"
+    },
+    {
+      title: "Image Compression & Resize Tool",
+      description: "Image Compression & Resize Tool is a lightweight web application built with Next.js 14 (App Router), Cloudinary, and MongoDB, designed for fast and hassle-free image optimization. Users can instantly compress and resize images without authentication, adjust quality levels, and export files in JPG, PNG, or WebP formats. The tool supports smart resizing by width and height while tracking usage analytics in MongoDB. With a minimal UI and instant downloads, the project focuses on performance, simplicity, and SEO-friendly image optimization.",
+      tech: ["Next.js", "Typescript", "Tailwindcss", "Framer Motion", "Node.js","Javascript", "Expressjs", "MongoDB", "Mongoose", "Vercel", "Cloudinary", "Github"],
+      demo: "https://image-compresor.vercel.app/",
+      github: "#",
+      featured: true,
+      color: "from-emerald-500 to-teal-500",
+      image: "/projects/image-compressor.png"
+    },
+    {
+      title: "OLDITEMS Marketpalce",
+      description: "OLDITEMS is a classified marketplace web application that allows users to buy and sell pre-owned items with ease. Users can create accounts to list products, manage ads, and securely view seller details including contact numbers. The platform focuses on simplicity, fast posting, and a smooth user experience for local item trading.",
+      tech: ["Next.js", "Typescript", "Tailwindcss", "Framer Motion", "Node.js", "JWT", "Bcrypt","Javascript", "Expressjs", "MongoDB", "Mongoose", "Vercel", "Cloudinary", "Github"],
+      demo: "https://www.olditems.in/",
+      github: "#",
+      featured: true,
+      color: "from-emerald-500 to-teal-500",
+      image: "/projects/olditems.png"
     }
   ];
   const wordpressprojects = [
@@ -194,12 +224,52 @@ const Index = () => {
       title: "Naomi Bourque Jewelry",
       description: `Developed a bespoke Shopify storefront on the tfjs2h‑ib.myshopify.com platform. I implemented a responsive theme, customized product layouts, and integrated third-party apps for features like reviews, wishlists, and dynamic upsells. The result is a conversion-focused, mobile‑optimized shopping experience with seamless checkout.`,
       tech: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Shopify Apps"],
-      demo: "https://tfjs2h-ib.myshopify.com",
+      demo: "https://naomibourque.com/",
       github: "#",
       featured: true,
       color: "from-blue-500 to-indigo-500",
       image: "/projects/naomi.png"
-    }
+    },
+    {
+      title: "Double Kiss",
+      description: `DoubleKissClub is a modern e-commerce website built for selling branded lifestyle products online. The platform features a clean product catalog, detailed product pages, lab result access, and a smooth shopping experience. It focuses on responsive design, performance optimization, and a user-friendly checkout flow.`,
+      tech: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Shopify Apps"],
+      demo: "https://doublekissclub.com/",
+      github: "#",
+      featured: true,
+      color: "from-blue-500 to-indigo-500",
+      image: "/projects/doublekiss.png"
+    },
+    {
+      title: "Spectral Brand",
+      description: `Spectral Brand is an e-commerce website selling THC-infused beverages and related products. The platform features a modern storefront with product filtering by price, category, and potency, clear product visuals, lab results access, and a smooth shopping experience. The site is fully responsive and optimized for performance and conversions.`,
+      tech: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Shopify Apps"],
+      demo: "https://spectralbrand.co/",
+      github: "#",
+      featured: true,
+      color: "from-blue-500 to-indigo-500",
+      image: "/projects/spectral.png"
+    },
+    {
+      title: "Michael Hill Designs",
+      description: `Michael Hill Designs is a professional e-commerce website that showcases custom-made jewelry and accessories with a polished, modern storefront. Built with a focus on elegant visuals and intuitive navigation, the site offers a seamless shopping experience with responsive design, clear product presentation, and easy checkout functionality.`,
+      tech: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Shopify Apps"],
+      demo: "https://michaelhilldesigns.com/",
+      github: "#",
+      featured: true,
+      color: "from-blue-500 to-indigo-500",
+      image: "/projects/michael.png"
+    },
+    {
+      title: "Sriracha Revolver",
+      description: `Sriracha Revolver Hot Sauce is a vibrant e-commerce store built on Shopify to showcase and sell premium hot sauce products. The site features an engaging product catalog, seamless shopping experience, and responsive design tailored for both desktop and mobile users. It highlights clean UI, easy navigation, and optimized performance for online sales.`,
+      tech: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Shopify Apps"],
+      demo: "https://sriracha-revolver-hot-sauce.myshopify.com/",
+      github: "#",
+      featured: true,
+      color: "from-blue-500 to-indigo-500",
+      image: "/projects/sriracha.png"
+    },
 
   ]
   const experience = [
@@ -296,7 +366,7 @@ const Index = () => {
                 </h1>
 
                 <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-                  I have over 3 years of experience working with frontend technologies and building responsive, user-centric web applications. Alongside this, I have solid experience in backend systems and scalable architecture, having worked with both startups and established companies to deliver full-stack solutions.
+                  I have over 4 years of experience working with frontend technologies and building responsive, user-centric web applications. Alongside this, I have solid experience in backend systems and scalable architecture, having worked with both startups and established companies to deliver full-stack solutions.
                 </p>
               </div>
 
@@ -309,13 +379,11 @@ const Index = () => {
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-2 border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-full px-8 transition-all duration-300"
+                <a href="mailto:udayveerus348566@gmail.com"
+                  className="border-2 border-blue-200 pt-2 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-full px-8 transition-all duration-300"
                 >
                   Contact Me
-                </Button>
+                </a>
               </div>
 
               <div className="flex space-x-4 pt-4">
@@ -375,7 +443,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                full Stack Developer Developer with 3+ years of experience delivering scalable and high-performance web applications. Proven track record in building e-commerce, education, and marketing platforms with a focus on clean code, responsive UI, and secure backend systems. Adept at collaborating in Agile teams, leading full-cycle development, and integrating modern tools like Next.js, Vercel, and Shopify. Seeking opportunities to solve complex problems and drive product excellence in dynamic development environments.
+                full Stack Developer Developer with 4 years of experience delivering scalable and high-performance web applications. Proven track record in building e-commerce, education, and marketing platforms with a focus on clean code, responsive UI, and secure backend systems. Adept at collaborating in Agile teams, leading full-cycle development, and integrating modern tools like Next.js, Vercel, and Shopify. Seeking opportunities to solve complex problems and drive product excellence in dynamic development environments.
               </p>
 
               <div className="space-y-4">
