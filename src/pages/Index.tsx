@@ -414,11 +414,11 @@ const Index = () => {
                   />
                 </div>
                 <div className="absolute -top-4 -right-4 bg-gradient-to-r from-pink-500 to-purp   le-500 text-white rounded-2xl p-4 shadow-xl border-2 border-white">
-                  <div className="text-sm font-semibold">3+ Years</div>
+                  <div className="text-sm font-semibold">4+ Years</div>
                   <div className="text-xs opacity-90">Experience</div>
                 </div>
                 <div className="absolute -bottom-4 -left-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-2xl p-4 shadow-xl border-2 border-white">
-                  <div className="text-sm font-semibold">15+ Projects</div>
+                  <div className="text-sm font-semibold">25+ Projects</div>
                   <div className="text-xs opacity-90">Completed</div>
                 </div>
               </div>
